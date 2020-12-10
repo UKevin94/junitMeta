@@ -7,7 +7,7 @@ import org.squashtest.ta.galaxia.squash.tf.galaxia.annotations.TFMetadata;
 public class MetadataTestOK {
 
     @Test
-    @TFMetadata( key = "linked-TC",value={"1b8331b1-2fbf-4557-b0ad-3a1068c5c27b"})
+    @TFMetadata( key = "linked-TC",value={"c4905a19-58f1-4b75-a497-b935114e647e"})
     @TFMetadata( key = "first_KEY", value = {"first_VALUE"})
     public void keyValue(){
         int a = 2;
@@ -16,7 +16,7 @@ public class MetadataTestOK {
     }
 
     @Test
-    @TFMetadata( key = "linked-TC",value={"177d11c2-ccb0-4665-9d81-3a71a2d339b1"})
+    @TFMetadata( key = "linked-TC",value={"c813fd3e-89e4-4dba-9f92-ab73769a57af"})
     @TFMetadata( key = "solo_KEY")
     public void keyOnly(){
         int a = 2;
@@ -25,7 +25,7 @@ public class MetadataTestOK {
     }
 
     @Test
-	@TFMetadata( key = "linked-TC",value={"57e5677a-f4cf-43c1-843b-15119468a1e4"})
+	@TFMetadata( key = "linked-TC",value={"a6c78599-cffa-4a38-adb3-26e74b74a417"})
     @TFMetadata( key = "multi_KEY", value = {"first_LIST", "second_LIST", "third_LIST"})
     public void keyMultilineValue(){
         int a = 2;
@@ -42,7 +42,7 @@ public class MetadataTestOK {
     }
 
     @Test
-	@TFMetadata( key = "linked-TC",value={"f0cc727b-2fa2-4f90-93d3-7aff727d0bdd"})
+	@TFMetadata( key = "linked-TC",value={"4cf04703-9056-4166-9665-a1b1694415cc"})
     @TFMetadata( key = "first_KEY_annots", value = {"first_VALUE"})
     @TFMetadata( key = "solo")
     @TFMetadata( key = "list", value = {"first_item", "second_item", "third_item"})
