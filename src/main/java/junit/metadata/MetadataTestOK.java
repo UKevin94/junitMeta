@@ -7,7 +7,7 @@ import org.squashtest.ta.galaxia.squash.tf.galaxia.annotations.TFMetadata;
 public class MetadataTestOK {
 
     @Test
-    @TFMetadata( key = "linked-TC",value={"97950a11-3136-467c-bce9-9b21f9c144e0"})
+    @TFMetadata( key = "linked-TC",value={"8ae94996-741a-4ba2-8a59-5c5487fb0bc7"})
     @TFMetadata( key = "first_KEY", value = {"first_VALUE"})
     public void keyValue(){
         int a = 2;
@@ -16,7 +16,7 @@ public class MetadataTestOK {
     }
 
     @Test
-    @TFMetadata( key = "linked-TC",value={"c813fd3e-89e4-4dba-9f92-ab73769a57af"})
+    @TFMetadata( key = "linked-TC",value={"29721499-15b2-4d52-8b82-ded1a092377a"})
     @TFMetadata( key = "solo_KEY")
     public void keyOnly(){
         int a = 2;
